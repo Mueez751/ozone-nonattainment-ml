@@ -95,7 +95,7 @@ Future work could incorporate multiple years of measurements, verify the status 
 
 The project report is available in:
 
-`report/Ozone_Nonattainment_ML_Submission_Report.pdf`
+[View the Project Report](Ozone_Nonattainment_ML_Report.pdf)
 
 ## 10. Project Files
 
