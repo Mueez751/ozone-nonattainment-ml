@@ -100,3 +100,13 @@ The project report is available in:
 ## 10. Project Files
 
 The repository contains the source code, project report, and documentation required to understand and reproduce the project.
+
+## Installation and Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Mueez751/ozone-nonattainment-ml.git
+cd ozone-nonattainment-ml
+
+pip install -r requirements.txt
