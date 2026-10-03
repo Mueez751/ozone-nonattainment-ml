@@ -172,3 +172,5 @@ Install Jupyter (skip this jupyter is there):
 pip install notebook
 jupyter notebook
 ```
+
+Open `train model.ipynb` and click **Run All**. The notebook reads `ozone_county_features_labeled_2025.csv` from the repository folder, so run it from inside the cloned folder.
