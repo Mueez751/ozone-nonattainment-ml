@@ -103,14 +103,72 @@ The repository contains the source code, project report, and documentation requi
 
 ## Installation and Setup
 
-Clone the repository:
+Requires Python 3.9+ and Git. The repository is private, so you need to be logged in to a GitHub account with access.
+
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Mueez751/ozone-nonattainment-ml.git~
+git clone https://github.com/Mueez751/ozone-nonattainment-ml.git
 ```
-or 
-``` git clone git@github.com:Mueez751/ozone-nonattainment-ml.git
 
+If HTTPS fails, use SSH instead:
+
+```bash
+git clone git@github.com:Mueez751/ozone-nonattainment-ml.git
+```
+
+Then:
+
+```bash
 cd ozone-nonattainment-ml
+```
 
+### 2. Create a virtual environment and install requirements
+
+**Linux (Ubuntu/Debian)**
+
+```bash
+sudo apt install python3-venv python3-pip
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
+```
+
+**macOS**
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+**Windows (PowerShell)**
+
+```powershell
+py -m venv venv
+venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+
+**Windows (CMD)**
+
+```bat
+py -m venv venv
+venv\Scripts\activate.bat
+pip install -r requirements.txt
+```
+
+If `pip install -r requirements.txt` fails, install the packages directly:
+
+```bash
+pip install pandas numpy scikit-learn matplotlib
+```
+
+### 3. Run the notebook
+
+Install Jupyter (skip this jupyter is there):
+
+```bash
+pip install notebook
+jupyter notebook
+```
