@@ -106,7 +106,11 @@ The repository contains the source code, project report, and documentation requi
 Clone the repository:
 
 ```bash
-git clone https://github.com/Mueez751/ozone-nonattainment-ml.git
+git clone https://github.com/Mueez751/ozone-nonattainment-ml.git~
+```
+or 
+``` git clone git@github.com:Mueez751/ozone-nonattainment-ml.git
+
 cd ozone-nonattainment-ml
 
 pip install -r requirements.txt
